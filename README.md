@@ -11,32 +11,32 @@ Ensuite, j'ai été bloqué de nombreuse minutes sur la dernière étape de l'in
 # 2.1 configuration ssh
 
 Pour changer la configuration de ssh pour permettre les connection root distante avec mot de passe j'ai tapé la commande :
-  <pre>nano /etc/ssh/sshd_config</pre>. Ensuite j'ai cherché la ligne <pre>#PermitRootLogin prohibit-password</pre> et la remplacé par PermitRootLogin yes. Il ne reste plus qu'a tapé la commande <pre>systemctl restart ssh</pre>
+  <pre>nano /etc/ssh/sshd_config</pre> Ensuite j'ai cherché la ligne <pre>#PermitRootLogin prohibit-password</pre> et la remplacé par PermitRootLogin yes. Il ne reste plus qu'a tapé la commande <pre>systemctl restart ssh</pre>
 
 # 2.3 Nombre de paquets 
-  <p>La commande : <pre>dpkg -l | wc -l</pre>, fait installer 350 paquets</p>
+  <p>Cette commande fait installer 350 paquets : <pre>dpkg -l | wc -l</pre></p>
 
 # 2.4 Space Usage
-  <p>La commande : <pre>df -h</pre>, envoie [image]
+  <p>Cette commande : <pre>df -h</pre> envoie [image]
  </p>
 
 # 2.5 Expliquer les commandes
 
-<p>La commande <pre>echo $LANG</pre>, envoie [image]</p>
+<p>La commande <pre>echo $LANG</pre> envoie [image]</p><hr>
 
-<p>La commande <pre>hostname</pre> envoie <pre>server1</pre></p>
+<p>La commande <pre>hostname</pre> envoie <pre>server1</pre></p><hr>
 
-<p>Pour trouver le domaine on utilise la commande <pre>hostname -d</pre> qui envoie <pre>ufr-info-p6.jussieu.fr</pre></p>
+<p>Pour trouver le domaine on utilise la commande <pre>hostname -d</pre> qui envoie <pre>ufr-info-p6.jussieu.fr</pre></p><hr>
 
-<p>La commande <pre>cat /etc/apt/sources.list | grep -v -E '^#|^$'</pre> sert à vérifier les dépôts qui sont activés pour l'installation de paquets et envoie [image]</p>
+<p>La commande <pre>cat /etc/apt/sources.list | grep -v -E '^#|^$'</pre> sert à vérifier les dépôts qui sont activés pour l'installation de paquets et envoie [image]</p><hr>
 
-<p>La commande <pre>cat /etc/shadow | grep -vE ':\*:|:!\*:'</pre> sert à voir les comptes ayant un mot de passe configuré dans /etc/shadow et envoie [image]</p>
+<p>La commande <pre>cat /etc/shadow | grep -vE ':\*:|:!\*:'</pre> sert à voir les comptes ayant un mot de passe configuré dans /etc/shadow et envoie [image]</p><hr>
 
-<p>La commande <pre>cat /etc/passwd | grep -vE 'nologin|sync'</pre> sert à afficher les comptes utilisateurs sauf ceux associés à des services ou qui ne peuvent pas se connecter directement et envoie [image]</p>
+<p>La commande <pre>cat /etc/passwd | grep -vE 'nologin|sync'</pre> sert à afficher les comptes utilisateurs sauf ceux associés à des services ou qui ne peuvent pas se connecter directement et envoie [image]</p><hr>
 
-<p>La commande <pre>fdisk -l</pre> affiche la table des partitions et les informations sur le disque. La commande <pre>fdisk -x</pre> donne plus de détails sur la géométrie et les structures de disque. Cela permet d'examiner la structure des partitions. Elles envoient [image]</p>
+<p>La commande <pre>fdisk -l</pre> affiche la table des partitions et les informations sur le disque. La commande <pre>fdisk -x</pre> donne plus de détails sur la géométrie et les structures de disque. Cela permet d'examiner la structure des partitions. Elles envoient [image]</p><hr>
 
-<p>La commande <pre>df -h</pre> donne une vue d'ensemble de l'utilisation de l'espace disquew et envoie [image]</p>
+<p>La commande <pre>df -h</pre> donne une vue d'ensemble de l'utilisation de l'espace disquew et envoie [image]</p><hr>
 
 ### 3-Aller plus loin
 

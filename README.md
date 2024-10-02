@@ -86,7 +86,7 @@ Device        Start      End  Sectors Type-UUID                            UUID 
 
 /dev/sda3  27344896 29298687  1953792 0FC63DAF-8483-4772-8E79-3D69D8477DE4 DAEC92D7-F93C-4D12-84D8-A4EC1ABD142D les logs
 
-/dev/sda4  29298688 41940991 12642304 0657FD6D-A4AB-43C4-84E5-0933C84B4F4F E2C5658F-FAFA-47CB-934E-3CA4BDE50E77 ma swap</p><hr>
+/dev/sda4  29298688 41940991 12642304 0657FD6D-A4AB-43C4-84E5-0933C84B4F4F E2C5658F-FAFA-47CB-934E-3CA4BDE50E77 ma swap</pre></p><hr>
 
 <p>La commande <pre>df -h</pre> donne une vue d'ensemble de l'utilisation de l'espace disquew et envoie 
   <pre>Filesystem      Size  Used Avail Use% Mounted on
